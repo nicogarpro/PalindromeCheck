@@ -1,2 +1,2 @@
-# palindrome
-a simple Palindrome check app
+# Palindrome Check App
+A simple Python Palindrome check app
