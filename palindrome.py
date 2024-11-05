@@ -1,12 +1,14 @@
 import time
 import sys
 
-number = input("Enter a number\n")
+text = input("Enter text\n")
 
-if number == number[::-1]:
+text_str = str(text)
+
+if text_str == text_str[::-1]:
     print("Palindrome")
 
-elif number != number[::-1]:
+elif text_str != text_str[::-1]:
     print("Not palindrome")
 
 time.sleep(3)
